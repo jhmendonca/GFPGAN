@@ -83,27 +83,27 @@ def main():
         arch = 'original'
         channel_multiplier = 1
         model_name = 'GFPGANv1'
-        url = 'https://github.com/TencentARC/GFPGAN/releases/download/v0.1.0/GFPGANv1.pth'
+        url = 'https://huggingface.co/jhmendonca/GFPGAN/resolve/main/GFPGANv1.pth'
     elif args.version == '1.2':
         arch = 'clean'
         channel_multiplier = 2
         model_name = 'GFPGANCleanv1-NoCE-C2'
-        url = 'https://github.com/TencentARC/GFPGAN/releases/download/v0.2.0/GFPGANCleanv1-NoCE-C2.pth'
+        url = 'https://huggingface.co/jhmendonca/GFPGAN/resolve/main/GFPGANCleanv1-NoCE-C2.pth'
     elif args.version == '1.3':
         arch = 'clean'
         channel_multiplier = 2
         model_name = 'GFPGANv1.3'
-        url = 'https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth'
+        url = 'https://huggingface.co/jhmendonca/GFPGAN/resolve/main/GFPGANv1.3.pth'
     elif args.version == '1.4':
         arch = 'clean'
         channel_multiplier = 2
         model_name = 'GFPGANv1.4'
-        url = 'https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.4.pth'
+        url = 'https://huggingface.co/jhmendonca/GFPGAN/resolve/main/GFPGANv1.4.pth'
     elif args.version == 'RestoreFormer':
         arch = 'RestoreFormer'
         channel_multiplier = 2
         model_name = 'RestoreFormer'
-        url = 'https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/RestoreFormer.pth'
+        url = 'https://huggingface.co/jhmendonca/GFPGAN/resolve/main/RestoreFormer.pth'
     else:
         raise ValueError(f'Wrong model version {args.version}.')
 
